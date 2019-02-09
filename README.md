@@ -1,6 +1,4 @@
 # HybridFactorizationMachines
-# name
-
 ## Semantically Interpretable Factorization Machines
 
 In the last decade, model-based recommender systems have shown their highly competitive performance in different domains and settings. In fact, they usually rely on the computation of latent factors to recommend items with a very high level of accuracy. Unfortunately, when moving to a latent space it is hard to keep references to the actual semantics of the recommended item, thus making the predictive model a black-box oracle.
