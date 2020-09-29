@@ -9,11 +9,52 @@ In this work, we propose a _knwowledge-aware Hybrid Factorization Machine_ (_kaH
 With _kaHFM_ we build a model in which the meaning of each latent factor is bound to an explicit content-based feature extracted from a knowledge graph. Doing this, after the model has been trained, we still have an explicit reference to the original semantics of the features describing the items, thus making possible the interpretation of the final results. 
 
 ## Reference
-If you publish research that uses _kaHFM_ please use:
+If you publish research that uses _Hybrid Factorization Machines_ please use:
+
+our recent article published in _IEEE Transactions on Knowledge and Data Engineering (TKDE)_. [The paper is available here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9143460)
 ~~~
-This work is currently under review
+@ARTICLE{9143460,
+  author={V. W. {Anelli} and T. {Di Noia} and E. {Di Sciascio} and A. {Ragone} and J. {Trotta}},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Semantic Interpretation of Top-N Recommendations}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},}
 ~~~
-The full paper describing the overall approach WILL BE available here [PDF](link)
+or our article published in the proceedings of _18th International Semantic Web Conference (ISWC2019) - Best Student Research Paper_ [The paper is available here](https://link.springer.com/content/pdf/10.1007%2F978-3-030-30793-6_3.pdf)
+~~~
+@inproceedings{DBLP:conf/semweb/AnelliNSRT19,
+  author    = {Vito Walter Anelli and
+               Tommaso Di Noia and
+               Eugenio Di Sciascio and
+               Azzurra Ragone and
+               Joseph Trotta},
+  editor    = {Chiara Ghidini and
+               Olaf Hartig and
+               Maria Maleshkova and
+               Vojtech Sv{\'{a}}tek and
+               Isabel F. Cruz and
+               Aidan Hogan and
+               Jie Song and
+               Maxime Lefran{\c{c}}ois and
+               Fabien Gandon},
+  title     = {How to Make Latent Factors Interpretable by Feeding Factorization
+               Machines with Knowledge Graphs},
+  booktitle = {The Semantic Web - {ISWC} 2019 - 18th International Semantic Web Conference,
+               Auckland, New Zealand, October 26-30, 2019, Proceedings, Part {I}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11778},
+  pages     = {38--56},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-30793-6\_3},
+  doi       = {10.1007/978-3-030-30793-6\_3},
+  timestamp = {Sat, 05 Sep 2020 18:02:34 +0200},
+  biburl    = {https://dblp.org/rec/conf/semweb/AnelliNSRT19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+~~~
 
 
 ## Credits
